@@ -15,7 +15,7 @@ The contract should cover the following functionality:
 ## Initialize a development project in Remix IDE
 1. Open [Remix IDE](https://remix.ethereum.org/) in Web Browser.
 2. Create a ```Contract.sol``` file inside your Workspace.
-3. Copy & Paste the code from [Burple_Contract-Templates](https://github.com/sarangBurpGod/Burple_Contract-Templates/blob/main/contract/ERC721TokenContract.sol) Public Repo.
+3. Copy & Paste the code from [Burple_Contract-Templates](https://github.com/sarangBurpGod/Burple_Contract-Templates/blob/main/contract/ERC721TokenContract.sol) public Repo to your ```Contract.sol``` file.
 
 <p align="center">
   <img src="./images/ide_code_setup.jpg" alt="Size Limit CLI" width="738">
