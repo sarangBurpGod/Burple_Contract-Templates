@@ -38,7 +38,12 @@ The contract should cover the following functionality:
 </p>
 
 3. Click on the **Deploy** button.
-4. Confirm the Contract Deployment Transaction (Which will popup on your Metamask Wallet).
+4. Confirm the Contract Deployment Transaction. (Which will popup on your Metamask Wallet)
 
 
 ## Minting your NFT
+1. Deployed Contract should look like below image.
+
+<p align="center">
+  <img src="./images/contract_intr.jpg.jpg" alt="Size Limit CLI" width="738">
+</p>
