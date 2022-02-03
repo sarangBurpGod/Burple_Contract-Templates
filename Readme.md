@@ -15,7 +15,7 @@ The contract should cover the following functionality:
 ## Initialize a development project in Remix IDE
 1. Open [Remix IDE](https://remix.ethereum.org/) in Web Browser.
 2. Create a ```Contract.sol``` file inside your Workspace.
-3. Copy & Paste the code from [Burple_Contract-Templates](https://github.com/sarangBurpGod/Burple_Contract-Templates/blob/main/contract/ERC721TokenContract.sol) public repo to your ```Contract.sol``` file.
+3. Copy & Paste the code from [Burple_Contract-Templates](https://github.com/sarangBurpGod/Burple_Contract-Templates/blob/main/contract/ERC721TokenContract.sol) <img src="https://burple.tech/logo-w.png" alt="Size Limit CLI" width="30"> public repo to your ```Contract.sol``` file. 
 
 <p align="center">
   <img src="./images/ide_code_setup.jpg" alt="Size Limit CLI" width="738">
@@ -30,7 +30,7 @@ The contract should cover the following functionality:
 
 ## Deploy using Ropsten Testnet
 1. Deploy & Run Plugin - Select Injected Web3 Environment.
-   1. Confirm, your Metamask wallet is connected.
+   1. Confirm, your Metamask wallet is connected. <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/330px-MetaMask_Fox.svg.png" alt="Size Limit CLI" width="30">
 2. Select ```POKEMON - Contract.sol``` from the Contract dropdown.
 
 <p align="center">
@@ -73,4 +73,4 @@ The contract should cover the following functionality:
   <img src="./images/Poke_Tok.jpg" alt="Size Limit CLI" width="300">
 </p>
 
-Voila! You have deployed your ERC721 Smart Contract and Minted a NFT.
+Voila! You have deployed your ERC721 Smart Contract and Minted a NFT. :1st_place_medal:
