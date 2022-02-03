@@ -42,8 +42,20 @@ The contract should cover the following functionality:
 
 
 ## Minting your NFT
-1. Deployed Contract should look like below image.
+1. Deployed Contract should look like below.
 
 <p align="center">
-  <img src="./images/contract_intr.jpg.jpg" alt="Size Limit CLI" width="738">
+  <img src="./images/contract_intr.jpg" alt="Size Limit CLI" width="180">
+</p>
+
+2. To Mint a NFT, ```safeMint``` function will be used.
+
+<p align="center">
+  <img src="./images/safe_mint.jpg" alt="Size Limit CLI" width="300">
+</p>
+
+3. Expand the ```safeMint``` and pass the To Address, TokenId & IPFS pinned metadata file link.
+
+<p align="center">
+  <img src="./images/safe_mint_input.jpg" alt="Size Limit CLI" width="300">
 </p>
