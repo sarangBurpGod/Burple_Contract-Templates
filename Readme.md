@@ -1,4 +1,4 @@
-# ERC721 NFT Token Contract
+# ERC721 NFT Token Contract :rocket:
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 ## Objective
@@ -15,7 +15,7 @@ The contract should cover the following functionality:
 ## Initialize a development project in Remix IDE
 1. Open [Remix IDE](https://remix.ethereum.org/) in Web Browser.
 2. Create a ```Contract.sol``` file inside your Workspace.
-3. Copy & Paste the code from [Burple_Contract-Templates](https://github.com/sarangBurpGod/Burple_Contract-Templates/blob/main/contract/ERC721TokenContract.sol) public Repo to your ```Contract.sol``` file.
+3. Copy & Paste the code from [Burple_Contract-Templates](https://github.com/sarangBurpGod/Burple_Contract-Templates/blob/main/contract/ERC721TokenContract.sol) public repo to your ```Contract.sol``` file.
 
 <p align="center">
   <img src="./images/ide_code_setup.jpg" alt="Size Limit CLI" width="738">
@@ -54,8 +54,23 @@ The contract should cover the following functionality:
   <img src="./images/safe_mint.jpg" alt="Size Limit CLI" width="300">
 </p>
 
-3. Expand the ```safeMint``` and pass the To Address, TokenId & IPFS pinned metadata file link.
+3. Expand the ```safeMint``` and pass the To: Address (Wallet address), TokenId: Id, Uri: IPFS pinned metadata file link.
 
 <p align="center">
-  <img src="./images/safe_mint_input.jpg" alt="Size Limit CLI" width="300">
+  <img src="./images/safe_mint_input_clear.jpg" alt="Size Limit CLI" width="300">
 </p>
+
+4. Click Transact and Confirm the safeMint Transaction. (Which will popup on your Metamask Wallet)
+
+
+## Verify your NFT on Ropsten Testnet
+1. Open [Ropsten Etherscan](https://ropsten.etherscan.io/)
+2. Search for the ```To:``` Address or https://ropsten.etherscan.io/address/[To:Address] replace TO:Address with wallet address.
+3. Below Balance, Token dropdown will appear.
+4. Click on the dropdown and you should see your POKEMON NFT Listed
+
+<p align="center">
+  <img src="./images/Poke_Tok.jpg" alt="Size Limit CLI" width="300">
+</p>
+
+Voila! You have deployed your ERC721 Smart Contract and Minted a NFT.
